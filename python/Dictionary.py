@@ -55,5 +55,6 @@ del filled_dict["one"]  # Removes the key "one" from filled dict
 # {'a': 1, **{'b': 2}}  # => {'a': 1, 'b': 2}
 # {'a': 1, **{'a': 2}}  # => {'a': 2}
 
+# splat operator
 old_dict = {'hello': 'world', 'foo': 'bar'}
 new_dict = {**old_dict, 'foo': 'baz'}

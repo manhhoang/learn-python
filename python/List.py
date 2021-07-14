@@ -70,3 +70,7 @@ li.extend(other_li)  # Now li is [1, 2, 3, 4, 5, 6]
 
 # Examine the length with "len()"
 len(li)  # => 6
+
+# splat operator
+old_list = [1, 2, 3]
+new_list = [*old_list, 4, 5]
